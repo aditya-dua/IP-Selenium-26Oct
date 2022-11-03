@@ -1,0 +1,13 @@
+Some common Java Program Examples
+1. Write a Program to find the greatest of 3 numbers
+2. Write a Program to Leap Year of Not
+3. WAP to swap the value of two numbers
+4. WAP to see if the character is an alphabet or not
+5. WAP to create a calc using switch
+6. WAP to check if the entered char is a vowel or consonant
+7. WAP to calculate the factorial of a number
+8. WAP to check if a number is Prime or not
+9. WAP to check if the number is Palindrome or not
+10.WAP to check if the number is Armstrong or not
+11. WAP to print the multiplcation table of a number
+12. WAP to calculate Fibonacci Series
