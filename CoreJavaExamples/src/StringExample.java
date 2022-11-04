@@ -11,7 +11,7 @@ public class StringExample {
 		System.out.println(name.charAt(0));
 		
 		System.out.println(name.length());
-		
+				
 	}
 
 }
