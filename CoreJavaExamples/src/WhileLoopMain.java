@@ -9,10 +9,10 @@ public class WhileLoopMain {
 		
 		int n = 10;
 		int i=0,sum =0;
+		
 		while(i<n) {
 			sum = sum+i;
 			i++;
-			
 		}
 		
 		System.out.println("The sum is :"+sum);
