@@ -6,5 +6,4 @@ public class MLIMain {
 		FullTimeEmployee fte = new FullTimeEmployee("FTE-1", "fte@fte.com", 10000, "Mtech", 1, "Sales");
 		fte.display();
 	}
-
 }
