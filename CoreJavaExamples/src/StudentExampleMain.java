@@ -11,6 +11,9 @@ public class StudentExampleMain {
 		
 		System.out.println("Code Works");
 		
+		Student student = new Student(1, "ABC");
+		
+		
 		
 	}
 

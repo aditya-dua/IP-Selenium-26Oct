@@ -3,6 +3,8 @@ public class Student {
 	
 	int id;
 	String name;
+	String email;
+	private String password;
 	
 	public Student() {
 		System.out.println("In Student Constructor");
