@@ -1,5 +1,7 @@
 package single;
 
+// Super is a keyword which is used to refer the parent class.
+// For ex: Person is a super class and Student is a sub class.
 public class Student extends Person{
 
 	int id;
@@ -11,7 +13,9 @@ public class Student extends Person{
 		this.course = course;
 	}
 	
+	
 	public Student() {
+		super();
 		// TODO Auto-generated constructor stub
 	}
 	
