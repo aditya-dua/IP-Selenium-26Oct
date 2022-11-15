@@ -15,6 +15,9 @@ public class Employee extends Person {
 		this.qualification = qualification;
 	}
 	
+	// This is known as Runtime Polymorphism
+	// Becoz, it is decided at the run time that which display function would be called
+	
 	@Override
 	public void display() {
 		// TODO Auto-generated method stub
