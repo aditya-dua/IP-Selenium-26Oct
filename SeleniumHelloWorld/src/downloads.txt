@@ -1,0 +1,11 @@
+Selenium Link:
+
+https://www.selenium.dev/downloads/
+
+Gecko Driver:
+
+https://github.com/mozilla/geckodriver/releases/tag/v0.32.0
+
+Chrome Driver:
+
+https://chromedriver.chromium.org/downloads
