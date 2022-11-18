@@ -28,17 +28,22 @@ public class Test {
     	driver.navigate().refresh();
     	driver.navigate().to("https://example.com");
     	
+    	driver.navigate().to("https://gmail.com");
+
+    	
     	System.out.println("The new title of the page is :"+driver.getTitle());
     	System.out.println("The new URL of the page is :"+driver.getCurrentUrl());
 
-    	//driver.navigate().back();
+    	//Thread.sleep(2000);
+    	driver.navigate().back();
     	
     	String pageSource = driver.getPageSource();
     	
     	System.out.println("The Page source of the URL:"+driver.getCurrentUrl()+" is :"+pageSource);
 
     	
-    	
+    	driver.navigate().back();
+
     	
     	//driver.quit();
     	
