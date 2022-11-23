@@ -1,0 +1,14 @@
+Assignment: 
+
+1. TestCase Class
+	
+	test(boolean login, String url)
+
+	1. test Login
+	2. Test Register
+	
+	
+2. Main Class
+
+	-> We wil create the object of test case class and call the function
+	

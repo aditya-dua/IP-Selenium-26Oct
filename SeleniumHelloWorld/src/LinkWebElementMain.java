@@ -21,9 +21,9 @@ public class LinkWebElementMain {
     	
     	List<WebElement> links= driver.findElements(By.tagName("a"));
     	
-    	
     	for (Iterator iterator = links.iterator(); iterator.hasNext();) {
 			WebElement webElement = (WebElement) iterator.next();
+			
 			System.out.println(webElement.getText());
 			
 		}
