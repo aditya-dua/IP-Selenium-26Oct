@@ -1,3 +1,4 @@
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 
@@ -20,6 +21,8 @@ public class LinkWebElementMain {
     	
     	
     	List<WebElement> links= driver.findElements(By.tagName("a"));
+    	
+    	HashSet<WebElement> linkSet = new HashSet<>(links);
     	
     	for (Iterator iterator = links.iterator(); iterator.hasNext();) {
 			WebElement webElement = (WebElement) iterator.next();
