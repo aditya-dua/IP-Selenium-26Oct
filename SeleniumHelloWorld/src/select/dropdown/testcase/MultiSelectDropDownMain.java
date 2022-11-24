@@ -31,9 +31,7 @@ public class MultiSelectDropDownMain {
 		System.out.println("Is the SeLeCT a Multi Select"+select.isMultiple());
 		
 		if(select.isMultiple()) {
-			select.selectByIndex(1);
-			
-			
+			select.selectByIndex(1);		
 			
 			select.selectByVisibleText("Opel");
 			
