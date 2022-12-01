@@ -1,3 +1,5 @@
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,9 +16,10 @@ public class RadioButtonAutomationMain {
     	String url ="https://demoqa.com/radio-button";
     	
     	driver.get(url);
-    	Thread.sleep(10000);
+    	//Thread.sleep(10000);
 
-    	
+    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
     	WebElement yesElement = driver.findElement(By.id("yesRadio"));
     	
     	System.out.println("Yes Radio Selected "+yesElement.isSelected());
