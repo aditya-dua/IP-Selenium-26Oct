@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -37,7 +38,7 @@ public class DelayedAlertMain {
     	Wait<WebDriver> fWait = new FluentWait<>(driver)
     			.withTimeout(Duration.ofSeconds(10))
     			.pollingEvery(Duration.ofSeconds(1))
-    			.ignoring(NoSuchElementException.class);
+    			.ignoring(Exception.class);
     	/*
     	 * 
     	 * alertIsPresent()
