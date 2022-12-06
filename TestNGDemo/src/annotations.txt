@@ -1,0 +1,18 @@
+Annotations in TestNG
+1. Test : Covered
+2. BeforeTest: 
+3. BeforeClass: 
+
+Sequence : 
+
+BeforeSuite
+BeforeTest
+BEforeClass
+BEforeMethod
+
+Test
+
+After Method
+After Class
+AfterTest
+AfterSuite

@@ -1,0 +1,8 @@
+1. Insurance Project
+
+Test Functions:
+1. Launch Browser
+2. Navigate to URL
+3. Signup
+4. Login
+5. Logout
