@@ -1,0 +1,14 @@
+Assignment on TestNG to test for Registeration flow on the Mercury Travel app
+
+
+Project Based assignment:
+1. Login to app
+2. Create a new user
+3. login the same user (Steps 2 and 3 should be dynamically controlled)
+4. Add the product bag to the cart
+5. Checkout the bag from the cart
+
+Topics for tomorrow:
+1. Take Screentshot
+2. Email TestNG report
+3. Take Screenshot on Failed Test Case
