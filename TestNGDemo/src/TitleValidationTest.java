@@ -34,6 +34,8 @@ public class TitleValidationTest {
 	
 	@AfterTest
 	public void terminateWindow() {
+		
+		
 		driver.close();
 		driver.quit();
 	}
