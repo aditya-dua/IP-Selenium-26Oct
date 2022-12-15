@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TitleValidationTest2">
+      <class name="pom.pages.with.excel.BookMainApp">
         <methods>
-          <include name="url"/>
-          <include name="reg"/>
+          <include name="loadTestData"/>
+          <include name="testLogin"/>
+          <include name="setupBrowser"/>
         </methods>
-      </class> <!-- TitleValidationTest2 -->
+      </class> <!-- pom.pages.with.excel.BookMainApp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
